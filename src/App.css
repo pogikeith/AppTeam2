@@ -46,13 +46,15 @@ body {
   background-color: #dbdee0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .portfolio-item-wrapper {
-  width: 300px;
-  height: 450px;
+  width: 400px;
+  height: 550px;
   margin: 10px;
-  margin-top: 30px;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -60,7 +62,6 @@ body {
   align-items: center;
   box-shadow: 1px 1px 7px black;
   background-color: white;
-  margin-left: 35%;
   object-fit: cover;
 }
 
