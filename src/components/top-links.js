@@ -4,7 +4,7 @@ const TopLinks = () => {
   return (
     <div className="top-links-wrapper">
       <div className="image-wrapper">
-        <img src={require("../whiteLogo.png")} />
+        <img className="top-logo" src={require("../newWhiteLogo.png")} />
       </div>
       <div className="links-wrapper">
         <div>

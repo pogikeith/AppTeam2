@@ -2,6 +2,14 @@ body {
   margin: 0px;
 }
 
+.image-wrapper {
+  height: 105px;
+}
+
+.top-logo {
+  padding: 6px;
+}
+
 .top-links-wrapper {
   background-color: #404e5c;
   display: flex;
@@ -37,7 +45,7 @@ body {
 .Portfolio-Wrapper {
   background-color: #dbdee0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .portfolio-item-wrapper {
@@ -76,10 +84,12 @@ body {
   margin-top: 15px;
 }
 .about-user {
-  margin-left: 25px;
+  display: flex;
+  justify-content: center;
   border: solid 1px black;
   width: 75%;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .see-more {

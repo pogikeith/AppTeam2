@@ -21,6 +21,108 @@ const PortfolioItem = () => {
         <button className="see-more">View Profile</button>
       </div>
       <div className="portfolio-item-wrapper">
+        <div className="photo">
+          <img
+            className="profile-pics"
+            src={require("../victimTen.jpg")}
+            alt="Benprofile"
+          />
+        </div>
+        <div className="custName">Alex</div>
+        <br />
+        <div className="about-user">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </div>
+        <button className="see-more">View Profile</button>
+      </div>{" "}
+      <div className="portfolio-item-wrapper">
+        <div className="photo">
+          <img
+            className="profile-pics"
+            src={require("../victimFive.jpg")}
+            alt="Benprofile"
+          />
+        </div>
+        <div className="custName">Ben</div>
+        <br />
+        <div className="about-user">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </div>
+        <button className="see-more">View Profile</button>
+      </div>
+      <div className="portfolio-item-wrapper">
+        <div className="photo">
+          <img
+            className="profile-pics"
+            src={require("../victimFive.jpg")}
+            alt="Benprofile"
+          />
+        </div>
+        <div className="custName">Ben</div>
+        <br />
+        <div className="about-user">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </div>
+        <button className="see-more">View Profile</button>
+      </div>
+      <div className="portfolio-item-wrapper">
+        <div className="photo">
+          <img
+            className="profile-pics"
+            src={require("../victimFive.jpg")}
+            alt="Benprofile"
+          />
+        </div>
+        <div className="custName">Ben</div>
+        <br />
+        <div className="about-user">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </div>
+        <button className="see-more">View Profile</button>
+      </div>
+      <div className="portfolio-item-wrapper">
+        <div className="photo">
+          <img
+            className="profile-pics"
+            src={require("../victimFive.jpg")}
+            alt="Benprofile"
+          />
+        </div>
+        <div className="custName">Ben</div>
+        <br />
+        <div className="about-user">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </div>
+        <button className="see-more">View Profile</button>
+      </div>
+      <div className="portfolio-item-wrapper">
+        <div className="photo">
+          <img
+            className="profile-pics"
+            src={require("../victimFive.jpg")}
+            alt="Benprofile"
+          />
+        </div>
+        <div className="custName">Ben</div>
+        <br />
+        <div className="about-user">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </div>
+        <button className="see-more">View Profile</button>
+      </div>
+      <div className="portfolio-item-wrapper">
         <img
           className="profile-pics"
           src={require("../victimOne.jpg")}
