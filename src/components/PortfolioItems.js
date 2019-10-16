@@ -162,6 +162,7 @@ const PortfolioItem = () => {
         </div>
 
         <button className="see-more">View Profile</button>
+
         <footer>....</footer>
         <footer>....</footer>
         <footer>....</footer>
