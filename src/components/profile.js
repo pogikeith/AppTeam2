@@ -1,35 +1,28 @@
-
 import React, { Component } from "react";
 
-export default class Profile extends Component { 
-    constructor() {
-        super()
-    
-        this.state = {
-            data: []
-        }
-    }
-componentDidMount () {
-    fetch ("https://reporter-fake-dating-site-db.herokuapp.com/headlines/")
-        .then(response => response.json())
-        .then(results => this.setState ({data: results })
-        )
-        <Route to='/profile/:id' component={Profile} />
-        
-}
+export default class Profile extends Component {
+  constructor() {
+    super();
 
-renderContent = () => {
-    return 
-}
+    this.state = {
+      data: []
+    };
+  }
+  componentDidMount() {
+    fetch("https://reporter-fake-dating-site-db.herokuapp.com/headlines/")
+      .then(response => response.json())
+      .then(results => this.setState({ data: results }));
+  }
 
-    render () {
-  return (
-    <div className="Heading">
+  renderContent = () => {
+    return;
+  };
+
+  render() {
+    return (
+      <div className="Heading">
         <p>heading</p>
       </div>
-  )}
- 
+    );
+  }
 }
-
-
-

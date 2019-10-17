@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-<<<<<<< HEAD
   color: #404e5c;
 }
 
@@ -21,6 +20,7 @@ body {
   border-bottom: solid 1.5px #ff5666;
   box-shadow: 1px 1px 7px black;
 }
+
 .links-wrapper {
   display: flex;
   justify-content: space-around;
@@ -118,16 +118,14 @@ body {
   font-size: 18px;
   padding: 5px;
   transition: 0.5s;
-=======
 }
 
 .image-wrapper {
-  display: inline; 
+  display: inline;
   grid-template-columns: 5px;
   align-items: center;
-  background-color:#6a7783;
+  background-color: #6a7783;
   padding: 1px;
-
 }
 
 .top-links-wrapper {
@@ -147,16 +145,13 @@ body {
 
 .links-wrapper {
   display: grid;
-  color: white; 
+  color: white;
   width: 100%;
   grid-column: 1 span;
   grid-template-columns: 20px;
-  grid-row-gap: 19px; 
-  padding: 5px; 
+  grid-row-gap: 19px;
+  padding: 5px;
 }
-  
-
-
 
 .link {
   /* background-color: #dcdcdd; */
@@ -169,7 +164,6 @@ body {
   text-align: center;
   padding: 15px;
   width: 55px;
->>>>>>> origin/keithmatt
 }
 .link:hover {
   cursor: pointer;
@@ -185,18 +179,16 @@ body {
   align-items: center; 
 } */
 
-<<<<<<< HEAD
 .see-more:hover {
   cursor: pointer;
   background-color: #6a7783;
   color: #f3f4f5;
   letter-spacing: 1px;
-=======
+}
 .column {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  background-color:#6a7783;
->>>>>>> origin/keithmatt
+  background-color: #6a7783;
 }
 
 .profile-wrapper {
