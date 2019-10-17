@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  color: #404e5c;
 }
 
 .image-wrapper {
@@ -7,7 +8,8 @@ body {
 }
 
 .top-logo {
-  padding: 6px;
+  padding-left: 8px;
+  padding-top: 3px;
 }
 
 .top-links-wrapper {
@@ -31,29 +33,28 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  /* border: solid 2px black; */
   text-align: center;
-  padding: 15px;
   width: 65px;
+  transition: 0.5s;
 }
 .link:hover {
   cursor: pointer;
-  color: red;
-  font-size: 30px;
+  color: #ff5666;
+  letter-spacing: 1px;
 }
 
 .Portfolio-Wrapper {
   background-color: #dbdee0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .portfolio-item-wrapper {
-  width: 400px;
-  height: 550px;
+  width: 350px;
+  height: 390px;
   margin: 10px;
   border-radius: 10px;
   overflow: hidden;
@@ -63,18 +64,24 @@ body {
   box-shadow: 1px 1px 7px black;
   background-color: white;
   object-fit: cover;
+  /* margin-top: 30px; */
 }
 
 .photo {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 .custName {
   margin-top: 15px;
   font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.custName h2 {
+  margin: 0px;
 }
 
 .profile-pics {
@@ -86,16 +93,24 @@ body {
 }
 .about-user {
   display: flex;
+  color: #6a7783;
   justify-content: center;
-  border: solid 1px black;
   width: 75%;
-  padding: 10px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 
+.about-user h3 {
+  margin: 0px;
+}
+
 .see-more {
-  background-color: #dbdee0;
-  margin-top: 40px;
+  background-color: #404e5c;
+  color: #f2f3f4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: transparent solid;
   border-radius: 5px;
   font-size: 18px;
   padding: 5px;
@@ -103,5 +118,6 @@ body {
 
 .see-more:hover {
   cursor: pointer;
-  background-color: rosybrown;
+  background-color: #6a7783;
+  color: #f2f3f4;
 }
