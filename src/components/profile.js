@@ -12,8 +12,8 @@ export default class Profile extends Component {
 componentDidMount () {
     fetch ("https://reporter-fake-dating-site-db.herokuapp.com/headlines/")
         .then(response => response.json())
-        .then(results => this.setState ({data: results })
-        )
+        .then(results => this.setState ({data: results }) 
+        ) 
        
         
 }
