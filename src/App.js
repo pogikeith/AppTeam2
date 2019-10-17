@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 
 import TopLinks from "./components/top-links";
+import Profile from "./components/profile";
 import "./App.css";
 
 export default class App extends Component {
@@ -9,7 +10,7 @@ export default class App extends Component {
     return (
       <div>
         <TopLinks />
-        
+       
       </div>
     );
   }
