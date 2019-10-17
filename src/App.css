@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid 1.5px black;
+  border-bottom: solid 1.5px #ff5666;
   box-shadow: 1px 1px 7px black;
 }
 .links-wrapper {
@@ -41,7 +41,7 @@ body {
 .link:hover {
   cursor: pointer;
   color: #ff5666;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 .Portfolio-Wrapper {
@@ -51,7 +51,6 @@ body {
   padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
-  border: solid 0.5px black;
 }
 
 .portfolio-item-wrapper {
@@ -95,7 +94,8 @@ body {
 }
 .about-user {
   display: flex;
-  color: #6a7783;
+  /* color: #6a7783; */
+  color: #ff5666;
   justify-content: center;
   width: 75%;
   margin-bottom: 20px;
@@ -116,10 +116,12 @@ body {
   border-radius: 5px;
   font-size: 18px;
   padding: 5px;
+  transition: 0.5s;
 }
 
 .see-more:hover {
   cursor: pointer;
   background-color: #6a7783;
-  color: #f2f3f4;
+  color: #f3f4f5;
+  letter-spacing: 1px;
 }

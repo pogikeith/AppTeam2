@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class PortfolioItem extends Component {
   constructor() {
@@ -39,7 +40,9 @@ export default class PortfolioItem extends Component {
           <div className="about-user">
             <h3>{item.username}</h3>
           </div>
-          <button className="see-more">View Profile</button>
+          <Link to={`/profile/${item.username}`} className="see-more">
+            View Profile
+          </Link>
         </div>
       );
     });
