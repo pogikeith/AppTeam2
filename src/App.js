@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-import TopLinks from "./components/top-links";
+import TopLinks from "./components/side-links";
 import Profile from "./components/profile";
 import "./App.css";
 

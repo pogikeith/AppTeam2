@@ -14,7 +14,7 @@ componentDidMount () {
         .then(response => response.json())
         .then(results => this.setState ({data: results })
         )
-        <Route to='/profile/:id' component={Profile} />
+       
         
 }
 

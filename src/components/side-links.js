@@ -4,7 +4,7 @@ import Profile from "./profile";
 
 const TopLinks = () => {
   return (
-    <div className="top-links-wrapper">
+    <div className="side-links-wrapper">
       <div className="image-wrapper">
         <img src={require("../finlogo.png")} />
         
