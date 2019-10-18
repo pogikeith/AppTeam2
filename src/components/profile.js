@@ -1,27 +1,11 @@
 import React, { Component } from "react";
+import SideLinks from "./side-links-wrapper";
 
 export default class Profile extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      data: []
-    };
-  }
-  componentDidMount() {
-    fetch("https://reporter-fake-dating-site-db.herokuapp.com/headlines/")
-      .then(response => response.json())
-      .then(results => this.setState({ data: results }));
-  }
-
-  renderContent = () => {
-    return;
-  };
-
   render() {
     return (
       <div className="Heading">
-        <p>heading</p>
+        <SideLinks username={this.props.match.params.username} />
       </div>
     );
   }

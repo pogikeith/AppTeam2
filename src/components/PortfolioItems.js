@@ -11,7 +11,7 @@ export default class PortfolioItem extends Component {
   }
 
   componentDidMount() {
-    fetch("https://reporter-fake-dating-site-db.herokuapp.com/users")
+    fetch("https://reporters-only-dot-com-db.herokuapp.com/users")
       .then(response => response.json())
       .then(results => this.setState({ data: results }))
 
@@ -23,7 +23,7 @@ export default class PortfolioItem extends Component {
   renderItems = () => {
     return this.state.data.map(item => {
       return (
-        <div className="portfolio-item-wrapper">
+        <div key={item.id} className="portfolio-item-wrapper">
           <div className="photo">
             <img
               className="profile-pics"
